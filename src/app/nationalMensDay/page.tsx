@@ -29,7 +29,7 @@ const NationalMensDay = () => {
                     fontSize: "2rem"
                   }}
                 >
-                  National <span style={{ color: "gold" }}>Men's</span> Day
+                  National <span style={{ color: "gold" }}>Mens</span> Day
               </span>
               
               <div
@@ -47,7 +47,7 @@ const NationalMensDay = () => {
                 }}
               >
                 <p style={{textIndent: "30px", fontSize:"1.5rem"}}>
-                National Men's Day, observed every July in South Africa, is celebrated by the GoodMen Foundation to honor positive masculinity and promote male involvement in the fight against gender-based violence, encouraging men to embrace their role as advocates for change.
+                National Mens Day, observed every July in South Africa, is celebrated by the GoodMen Foundation to honor positive masculinity and promote male involvement in the fight against gender-based violence, encouraging men to embrace their role as advocates for change.
                 </p>
               </div>
             </>

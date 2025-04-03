@@ -1,18 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
+  basePath: "/startup-nextjs-main", // match your GitHub repo name exactly
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
-        protocol: "http", // Update protocol to "http" if accessing localhost without HTTPS
+        protocol: "http",
         hostname: "localhost",
-        port: "3000", // Specify the port if your app is running on localhost:3000
-        pathname: "/**", // Allow all paths
+        port: "3000",
+        pathname: "/**",
       },
       {
         protocol: "https",
         hostname: "cdn.sanity.io",
-        port: "",
-        pathname: "/**", // Allow all paths
+        pathname: "/**",
       },
     ],
   },
